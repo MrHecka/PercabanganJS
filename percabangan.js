@@ -6,7 +6,7 @@ for (var i = 1; i <= 21; i++) {
     }
     for (var k = i; k <= angka; k++) {
         document.write("*");
-        for (var j=i+1; j <= i; j++)
+        for (var j = i; j <= i; j++)
             document.write("=");
     }
 
