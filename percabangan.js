@@ -1,4 +1,4 @@
-var angka = prompt('Masukkan Angka!aaaaa');
+var angka = prompt('Masukkan Angka!te  afwasttt');
 
 for (var i = 1; i <= 21; i++) {
     for (var j = 1; j <= i; j++) {
@@ -6,7 +6,7 @@ for (var i = 1; i <= 21; i++) {
     }
     for (var k = i; k <= angka; k++) {
         document.write("*");
-        for (var l = i; l <= i; l++)
+        for (var j = i; j <= i; j++)
             document.write("=");
     }
 
