@@ -1,4 +1,5 @@
 var baris = 3;
+var polaDollar = "$";
 var polaSamaDgn = "=";
 var polaBintang = "*";
 var spasi = "";
@@ -14,13 +15,14 @@ for (let index = baris; index > 0; index--) {
 
         if ((index2 % 2) == 0) {
             hasil = hasil.concat(polaSamaDgn);
-        } else {
             hasil = hasil.concat(polaBintang);
+        } else {
+            hasil = hasil.concat(polaDollar);
         }
     }
 
 
-console.log(spasi + hasil);
-spasi += " ";
+    console.log(spasi + hasil);
+    spasi += " ";
 
 }
